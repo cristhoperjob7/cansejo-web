@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# TODO: reemplazar por el dominio real
+Sitemap: https://TU-DOMINIO.cl/sitemap.xml
