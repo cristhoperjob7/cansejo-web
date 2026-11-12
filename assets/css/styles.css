@@ -194,6 +194,9 @@ figure{margin:0}
 .proj:hover figcaption{transform:translateY(-6px)}
 .proj figcaption strong{display:block;font-size:16px}
 .proj figcaption span{font-size:14px;color:var(--muted)}
+/* Fila final de 2 fotos horizontales */
+.gal-wide{margin-top:24px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.proj-wide{aspect-ratio:3/2}
 
 /* ---------- Contacto ---------- */
 .contact{display:flex;flex-wrap:wrap;align-items:flex-start;gap:48px}
@@ -258,6 +261,7 @@ textarea.field{min-height:120px;resize:vertical}
   .js .menu .navlink:hover,.js .menu .navlink[aria-current="true"]{background:var(--g-50)}
   .js .menu .btn{margin-top:8px}
   .gal{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .proj-wide{aspect-ratio:4/3}
 }
 
 @media (max-width:640px){
@@ -275,6 +279,7 @@ textarea.field{min-height:120px;resize:vertical}
 
 @media (max-width:520px){
   .gal{grid-template-columns:minmax(0,1fr)}
+  .proj-wide{aspect-ratio:4/3}
 }
 
 @media (hover:none){
